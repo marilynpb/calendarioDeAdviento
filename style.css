@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'ChristmasLightsIndoor1';
+    src: url('./fonts/christmas_lights/ChristmasLightsIndoor.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ChristmasLightsIndoor2';
+    src: url('./fonts/christmas_lights/ChristmasLightsOutdoor.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Christmas';
+    src: url('./fonts/home_christmas/Home\ Christmas.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PWHappyChristmas';
+    src: url('./fonts/pwhappychristmas/PWHappyChristmas.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Playful_christmas';
+    src: url('./fonts/playful_christmas/Playful\ Christmas-Personal\ Use.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'The_perfect_christmas';
+    src: url('./fonts/the_perfect_christmas/The\ Perfect\ Christmas.ttf') format('truetype');
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: 'Playful_christmas', sans-serif;
+    background-image: url('./img/joanna-kosinska-_1T4ntNl324-unsplash.jpg');
+    background-size: cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    color: rgb(209, 207, 203);
+}
+
+
+
+.container-fluid{
+    background-color: rgba(15, 15, 15, 0.452);
+}
+
+.p-title{
+    font-family: 'PWHappyChristmas', sans-serif;
+    color: aliceblue;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+h1{
+    font-family: 'PWHappyChristmas', sans-serif;
+    color: aliceblue;
+    letter-spacing: 5px;
+}
+
+h2, h3{
+    font-size: 26px;
+}
+
+a{
+    color: rgb(192, 30, 157);
+    text-decoration: none;
+}
+
+span{
+    color: rgb(18, 160, 6);
+}
+
+p{
+    color: rgb(192, 8, 8);
+}
+
+.circle{
+    background-color: aliceblue;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    border: 4px dashed rgb(6, 110, 6);
+    box-shadow: rgb(4, 99, 43) 0px 5px;
+}
+
+.regalo1{
+    background-image: url('./img/1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.regalo2{
+    background-image: url('./img/2.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.regalo3{
+    background-image: url('./img/3.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.regalo4{
+    background-image: url('./img/4.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.regalos{
+    min-height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/******/
